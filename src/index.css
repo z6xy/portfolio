@@ -46,11 +46,15 @@ img { max-width: 100%; display: block; }
 
 /* ===== 区块标题：编号 + 标题 ===== */
 .section-title {
+  font-size: clamp(28px, 3.2vw, 52px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
   margin-bottom: 64px;
-  text-align: center;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
 }
-.section-title__num {
-  display: block;
+.section-title span {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2em;
@@ -58,14 +62,6 @@ img { max-width: 100%; display: block; }
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  margin-bottom: 6px;
-}
-.section-title__tech {
-  width: 100%;
-  height: clamp(150px, 18vw, 220px);
-}
-.section-title__tech .particle-text {
-  min-height: 0;
 }
 
 /* ===== 按钮 ===== */
