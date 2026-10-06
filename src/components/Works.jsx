@@ -1,4 +1,5 @@
 import Reveal from './Reveal.jsx'
+import TechText from './TechText.jsx'
 
 // 精选项目：大卡片展示作品图片（图片先用渐变色占位，换图时把 work__thumb 里的占位换成 <img>）
 const works = [
@@ -23,7 +24,12 @@ export default function Works() {
     <section id="works" className="works section">
       <div className="container">
         <Reveal>
-          <h2 className="section-title"><span>02</span> 精选项目</h2>
+          <h2 className="section-title">
+            <span className="section-title__num">02</span>
+            <div className="section-title__tech">
+              <TechText text="精选项目" color="#ececf2" accentColor="#6e56cf" fontSize={54} />
+            </div>
+          </h2>
         </Reveal>
 
         <div className="works__grid">

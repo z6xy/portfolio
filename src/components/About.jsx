@@ -1,4 +1,5 @@
 import Reveal from './Reveal.jsx'
+import TechText from './TechText.jsx'
 
 // 个人经历：头像 / 人物图 + 自我介绍 + 联系方式 + 项目数据
 export default function About() {
@@ -18,7 +19,12 @@ export default function About() {
     <section id="about" className="about section">
       <div className="container">
         <Reveal>
-          <h2 className="section-title"><span>01</span> 个人经历</h2>
+          <h2 className="section-title">
+            <span className="section-title__num">01</span>
+            <div className="section-title__tech">
+              <TechText text="个人经历" color="#ececf2" accentColor="#6e56cf" fontSize={54} />
+            </div>
+          </h2>
         </Reveal>
 
         <div className="about__grid">
