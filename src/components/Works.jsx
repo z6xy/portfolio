@@ -7,14 +7,14 @@ const works = [
     category: '桌面端应用',
     year: '2026',
     tags: ['Electron', 'AI 工具调用', 'Claude Code'],
-    gradient: 'linear-gradient(135deg, #242424, #131313)',
+    gradient: 'linear-gradient(135deg, #2b2350, #1a1630)',
   },
   {
     title: '个人履历展示网页',
     category: '网页开发',
     year: '2026',
     tags: ['HTML/CSS', '线上部署', 'GitHub Pages'],
-    gradient: 'linear-gradient(135deg, #1d1d1d, #0e0e0e)',
+    gradient: 'linear-gradient(135deg, #0f3a44, #0c2530)',
   },
 ]
 
