@@ -3,14 +3,14 @@ import Reveal from './Reveal.jsx'
 // 个人优势：能力卡片
 const caps = [
   {
-    title: '桌面端轻量应用开发',
-    desc: '用 Electron 做出奶蛙桌宠这类轻量桌面应用，能交互、能聊天。',
-    tags: ['Electron', '交互', 'IPC'],
-  },
-  {
     title: '自动化工作流搭建',
     desc: '把重复劳动交给脚本和 AI，端到端把一件事真正跑通。',
     tags: ['脚本', '端到端', '工具链'],
+  },
+  {
+    title: '桌面端轻量应用开发',
+    desc: '用 Electron 做出奶蛙桌宠这类轻量桌面应用，能交互、能聊天。',
+    tags: ['Electron', '交互', 'IPC'],
   },
   {
     title: '网页开发与布局',

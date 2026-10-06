@@ -29,10 +29,10 @@ export default function About() {
 
           <Reveal className="about__body" delay={120}>
             <p className="about__lead">
-              独立开发者 / AI 工具实践者。非科班出身，但相信「先动手做出来，再慢慢做好」。
+              独立开发者 / AI 工具实践者。相信「先动手做出来，再慢慢做好」。
             </p>
             <p className="about__text">
-              从零学会用 Claude Code 等 AI 工具，独立完成桌面应用、自动化工作流和个人网站。擅长把重复劳动交给脚本和 AI，把精力留给真正需要判断力的部分。
+              用 Claude Code 等 AI 工具，独立完成桌面应用、自动化工作流和个人网站。擅长把重复劳动交给脚本和 AI，把精力留给真正需要判断力的部分。
             </p>
             <ul className="about__contacts">
               {contacts.map((c) => (
