@@ -22,7 +22,7 @@ export default function About() {
           <h2 className="section-title">
             <span className="section-title__num">01</span>
             <div className="section-title__tech">
-              <ParticleText text="个人经历" color="#ececf2" highlightColor="#6e56cf" fontSize="clamp(28px, 3.2vw, 52px)" fontWeight={700} />
+              <ParticleText text="个人经历" particleSize={1.4} glow={false} color="#ececf2" highlightColor="#6e56cf" fontSize="clamp(28px, 3.2vw, 52px)" fontWeight={700} />
             </div>
           </h2>
         </Reveal>
