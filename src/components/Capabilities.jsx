@@ -1,5 +1,5 @@
 import Reveal from './Reveal.jsx'
-import TechText from './TechText.jsx'
+import ParticleText from './ParticleText.jsx'
 
 // 个人优势：能力卡片
 const caps = [
@@ -33,7 +33,7 @@ export default function Capabilities() {
           <h2 className="section-title">
             <span className="section-title__num">03</span>
             <div className="section-title__tech">
-              <TechText text="个人优势" color="#ececf2" accentColor="#6e56cf" fontSize={54} />
+              <ParticleText text="个人优势" color="#ececf2" highlightColor="#6e56cf" fontSize="clamp(28px, 3.2vw, 52px)" fontWeight={700} />
             </div>
           </h2>
         </Reveal>

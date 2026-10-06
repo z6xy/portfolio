@@ -1,5 +1,5 @@
 import Reveal from './Reveal.jsx'
-import TechText from './TechText.jsx'
+import ParticleText from './ParticleText.jsx'
 
 // 精选项目：大卡片展示作品图片（图片先用渐变色占位，换图时把 work__thumb 里的占位换成 <img>）
 const works = [
@@ -27,7 +27,7 @@ export default function Works() {
           <h2 className="section-title">
             <span className="section-title__num">02</span>
             <div className="section-title__tech">
-              <TechText text="精选项目" color="#ececf2" accentColor="#6e56cf" fontSize={54} />
+              <ParticleText text="精选项目" color="#ececf2" highlightColor="#6e56cf" fontSize="clamp(28px, 3.2vw, 52px)" fontWeight={700} />
             </div>
           </h2>
         </Reveal>

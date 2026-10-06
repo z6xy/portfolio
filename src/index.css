@@ -62,7 +62,10 @@ img { max-width: 100%; display: block; }
 }
 .section-title__tech {
   width: 100%;
-  height: clamp(60px, 6vw, 92px);
+  height: clamp(150px, 18vw, 220px);
+}
+.section-title__tech .particle-text {
+  min-height: 0;
 }
 
 /* ===== 按钮 ===== */
