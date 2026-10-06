@@ -340,11 +340,11 @@ img { max-width: 100%; display: block; }
   margin-bottom: 24px;
 }
 .contact__title {
+  font-size: clamp(44px, 7vw, 110px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
   margin-bottom: 44px;
-}
-.contact__title-line {
-  width: 100%;
-  height: clamp(90px, 11vw, 160px);
 }
 .contact__links {
   margin-top: 64px;

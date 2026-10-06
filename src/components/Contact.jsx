@@ -1,5 +1,4 @@
 import Reveal from './Reveal.jsx'
-import TechText from './TechText.jsx'
 
 // 底部联系方式：整屏收尾页
 export default function Contact() {
@@ -9,12 +8,7 @@ export default function Contact() {
         <Reveal>
           <p className="contact__eyebrow">有想法？聊一聊</p>
           <h2 className="contact__title">
-            <div className="contact__title-line">
-              <TechText text="一起做点" color="#ececf2" accentColor="#6e56cf" fontSize={110} />
-            </div>
-            <div className="contact__title-line">
-              <TechText text="不一样的东西" color="#ececf2" accentColor="#6e56cf" fontSize={110} />
-            </div>
+            一起做点<br />不一样的东西
           </h2>
           <a className="btn btn--primary btn--lg" href="mailto:2493764980@qq.com">发邮件给我</a>
         </Reveal>
