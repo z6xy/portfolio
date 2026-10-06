@@ -1,18 +1,11 @@
-// 全屏首页 Hero：视频背景 + 大标题 + 导航 + 联系按钮
-// 视频背景：把 mp4 放到 public/hero-bg.mp4，然后取消下面 <video> 的注释，
-//          同时删掉 .hero__bg / .hero__glow 两层占位（在 index.css 里）
+// 全屏首页 Hero：抖动波纹背景 + 大标题 + 导航 + 联系按钮
+import DitherBackground from './DitherBackground.jsx'
+
 export default function Hero() {
   return (
     <section id="top" className="hero">
-      {/* 占位背景：渐变 + 网格 + 漂浮光斑 */}
-      <div className="hero__bg" aria-hidden="true" />
-      <div className="hero__glow" aria-hidden="true" />
-
-      {/* 真实视频背景（目前注释掉）
-      <video className="hero__video" autoPlay muted loop playsInline>
-        <source src="/hero-bg.mp4" type="video/mp4" />
-      </video>
-      */}
+      {/* 背景：黑白抖动波纹（零依赖 WebGL，见 DitherBackground.jsx） */}
+      <DitherBackground />
 
       <div className="hero__overlay" aria-hidden="true" />
 
