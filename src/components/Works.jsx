@@ -3,7 +3,7 @@ import Reveal from './Reveal.jsx'
 // 精选项目：大卡片展示作品图片（图片先用渐变色占位，换图时把 work__thumb 里的占位换成 <img>）
 const works = [
   {
-    title: '奶蛙桌宠（Electron AI 桌宠）',
+    title: '桌面端智能体交互原型',
     category: '桌面端应用',
     year: '2026',
     tags: ['Electron', 'AI 工具调用', 'Claude Code'],

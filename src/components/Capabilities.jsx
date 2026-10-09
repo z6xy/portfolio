@@ -9,7 +9,7 @@ const caps = [
   },
   {
     title: '桌面端轻量应用开发',
-    desc: '用 Electron 做出奶蛙桌宠这类轻量桌面应用，能交互、能聊天。',
+    desc: '用 Electron 实现本地桌面端交互原型，支持对话、状态反馈与工具调用。',
     tags: ['Electron', '交互', 'IPC'],
   },
   {
